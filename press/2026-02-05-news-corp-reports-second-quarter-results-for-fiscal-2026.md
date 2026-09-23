@@ -1,7 +1,9 @@
 ---
 title: News Corp Reports Second Quarter Results for Fiscal 2026
 url: https://newscorp.com/2026/02/05/news-corp-reports-second-quarter-results-for-fiscal-2026/
-date: '2026-02-05'
+published: ''
+date_basis: harvested
+harvested: '2026-02-05'
 author: John Rech
 feed_url: https://newscorp.com/feed/
 ---

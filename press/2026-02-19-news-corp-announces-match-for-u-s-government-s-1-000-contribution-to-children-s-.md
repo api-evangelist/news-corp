@@ -2,7 +2,9 @@
 title: News Corp Announces Match for U.S. Government’s $1,000 Contribution to Children’s
   Investment Accounts
 url: https://newscorp.com/2026/02/19/news-corp-announces-match-for-u-s-governments-1000-contribution-to-childrens-investment-accounts/
-date: '2026-02-19'
+published: ''
+date_basis: harvested
+harvested: '2026-02-19'
 author: John Rech
 feed_url: https://newscorp.com/feed/
 ---

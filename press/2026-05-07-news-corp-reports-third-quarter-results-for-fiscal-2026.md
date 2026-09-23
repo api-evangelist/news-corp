@@ -1,7 +1,9 @@
 ---
 title: News Corp Reports Third Quarter Results for Fiscal 2026
 url: https://newscorp.com/2026/05/07/news-corp-reports-third-quarter-results-for-fiscal-2026/
-date: '2026-05-07'
+published: ''
+date_basis: harvested
+harvested: '2026-05-07'
 author: John Rech
 feed_url: https://newscorp.com/feed/
 ---

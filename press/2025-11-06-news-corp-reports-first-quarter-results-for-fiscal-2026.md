@@ -1,7 +1,9 @@
 ---
 title: News Corp Reports First Quarter Results for Fiscal 2026
 url: https://newscorp.com/2025/11/06/news-corp-reports-first-quarter-results-for-fiscal-2026/
-date: '2025-11-06'
+published: ''
+date_basis: harvested
+harvested: '2025-11-06'
 author: John Rech
 feed_url: https://newscorp.com/feed/
 ---

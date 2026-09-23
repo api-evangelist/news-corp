@@ -2,7 +2,9 @@
 title: Comment on News Corporation Announces Details Regarding Proposed Separation
   of Businesses by create binance account
 url: https://newscorp.com/2012/12/03/news-corporation-announces-details-regarding-proposed-separation-of-businesses/#comment-9010
-date: '2026-05-24'
+published: '2012-12-03'
+date_basis: url-derived
+harvested: '2026-05-24'
 author: create binance account
 feed_url: https://newscorp.com/comments/feed/
 ---

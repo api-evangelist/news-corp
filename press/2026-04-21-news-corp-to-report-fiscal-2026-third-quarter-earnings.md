@@ -1,7 +1,9 @@
 ---
 title: News Corp to Report Fiscal 2026 Third Quarter Earnings
 url: https://newscorp.com/2026/04/21/news-corp-to-report-fiscal-2026-third-quarter-earnings/
-date: '2026-04-21'
+published: ''
+date_basis: harvested
+harvested: '2026-04-21'
 author: John Rech
 feed_url: https://newscorp.com/feed/
 ---

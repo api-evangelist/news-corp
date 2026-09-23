@@ -1,7 +1,9 @@
 ---
 title: News Corp is essentially an AI 'input company', chief ...
 url: https://www.theguardian.com/media/2026/mar/04/news-corp-meta-ai-deal-us50m
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"News Corp." press release artificial intelligence'
 position: 2
 source: serpapi-google

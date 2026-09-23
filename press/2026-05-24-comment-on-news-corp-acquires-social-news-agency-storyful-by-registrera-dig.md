@@ -1,7 +1,9 @@
 ---
 title: Comment on News Corp Acquires Social News Agency Storyful by Registrera dig
 url: https://newscorp.com/2013/12/20/news-corp-acquires-social-news-agency-storyful/#comment-9006
-date: '2026-05-24'
+published: '2013-12-20'
+date_basis: url-derived
+harvested: '2026-05-24'
 author: Registrera dig
 feed_url: https://newscorp.com/comments/feed/
 ---

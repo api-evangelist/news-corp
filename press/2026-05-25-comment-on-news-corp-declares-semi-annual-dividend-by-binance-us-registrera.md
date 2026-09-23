@@ -1,7 +1,9 @@
 ---
 title: Comment on News Corp Declares Semi-Annual Dividend by binance US-registrera
 url: https://newscorp.com/2016/02/10/news-corp-declares-semi-annual-dividend/#comment-9013
-date: '2026-05-25'
+published: '2016-02-10'
+date_basis: url-derived
+harvested: '2026-05-25'
 author: binance US-registrera
 feed_url: https://newscorp.com/comments/feed/
 ---

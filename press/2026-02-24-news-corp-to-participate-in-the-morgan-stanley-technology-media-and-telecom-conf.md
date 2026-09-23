@@ -2,7 +2,9 @@
 title: News Corp to Participate in the Morgan Stanley Technology, Media & Telecom
   Conference
 url: https://newscorp.com/2026/02/24/news-corp-to-participate-in-the-morgan-stanley-technology-media-telecom-conference-5/
-date: '2026-02-24'
+published: ''
+date_basis: harvested
+harvested: '2026-02-24'
 author: John Rech
 feed_url: https://newscorp.com/feed/
 ---

@@ -1,7 +1,9 @@
 ---
 title: News Corp to Report Fiscal 2026 Second Quarter Earnings
 url: https://newscorp.com/2026/01/20/news-corp-to-report-fiscal-2026-second-quarter-earnings/
-date: '2026-01-20'
+published: ''
+date_basis: harvested
+harvested: '2026-01-20'
 author: John Rech
 feed_url: https://newscorp.com/feed/
 ---

@@ -1,7 +1,9 @@
 ---
 title: News Corp to Report Fiscal 2026 First Quarter Earnings
 url: https://newscorp.com/2025/10/23/news-corp-to-report-fiscal-2026-first-quarter-earnings/
-date: '2025-10-23'
+published: ''
+date_basis: harvested
+harvested: '2025-10-23'
 author: John Rech
 feed_url: https://newscorp.com/feed/
 ---

@@ -1,7 +1,9 @@
 ---
 title: News Corp Australia outlines its approach to using AI in ...
 url: https://www.inma.org/blogs/conference/post.cfm/news-corp-australia-outlines-its-approach-to-using-ai-in-its-newsrooms
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"News Corp." press release artificial intelligence'
 position: 3
 source: serpapi-google

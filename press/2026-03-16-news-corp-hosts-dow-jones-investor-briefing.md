@@ -1,7 +1,9 @@
 ---
 title: News Corp Hosts Dow Jones Investor Briefing
 url: https://newscorp.com/2026/03/16/news-corp-hosts-dow-jones-investor-briefing/
-date: '2026-03-16'
+published: ''
+date_basis: harvested
+harvested: '2026-03-16'
 author: John Rech
 feed_url: https://newscorp.com/feed/
 ---

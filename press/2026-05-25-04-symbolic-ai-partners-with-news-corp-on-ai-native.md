@@ -1,7 +1,9 @@
 ---
 title: Symbolic.ai Partners with News Corp on AI-Native ...
 url: https://www.linkedin.com/posts/symbolic-ai_symbolic-partners-with-news-corp-to-deploy-activity-7417611941235531776-yTQy
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"News Corp." press release artificial intelligence'
 position: 4
 source: serpapi-google
