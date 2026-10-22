@@ -1,5 +1,7 @@
 aid: news-corp
+
 name: "News Corp"
+
 deliveryModel:
   model: unknown
   open_source: false
@@ -11,7 +13,9 @@ deliveryModel:
   - none
   generated: '2026-08-28'
   method: derived
+
 specificationVersion: '0.23'
+
 accessModel:
   pricing: unknown
   onboarding: unknown
@@ -23,21 +27,96 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/news-corp.png
+
 tags:
   - Fortune 500
+  - Media
+  - News
+  - Publishing
+  - Book Publishing
+  - Digital Real Estate
+  - Financial Information
+
 url: 
   https://raw.githubusercontent.com/api-evangelist/news-corp/refs/heads/main/apis.yml
-modified: '2026-04-28'
-apis: []
+
+created: '2026-04-28'
+
+modified: '2026-10-20'
+
+description: >-
+  News Corp (Nasdaq: NWS, NWSA) is a global, diversified media and information services
+  company focused on creating and distributing authoritative and engaging content across
+  publishing, news media, digital real estate services, and book publishing. Its businesses
+  and brands include Dow Jones (The Wall Street Journal, Barron's, MarketWatch, Investor's
+  Business Daily), the New York Post, News UK (The Times, The Sun), News Corp Australia,
+  HarperCollins, Storyful, REA Group and Realtor.com. No public developer program or API
+  documentation is published on newscorp.com.
+
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
+
 common:
+  - type: Security
+    url: security/news-corp-vulnerability-disclosure.yml
+  - type: Hosts
+    url: hosts/news-corp-hosts.yml
+  - type: Vendors
+    url: vendors/news-corp-vendors.yml
+  - type: VulnerabilityDisclosure
+    url: security/news-corp-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/news-corp-domain-security.yml
+  - type: Website
+    url: https://newscorp.com/
+  - type: About
+    url: https://newscorp.com/about-news-corp/
+  - type: Blog
+    url: https://newscorp.com/press-room/
+  - type: Support
+    url: https://newscorp.com/news-corp-contact/
+  - type: TermsOfService
+    url: https://newscorp.com/terms-of-use/
+  - type: PrivacyPolicy
+    url: https://newscorp.com/privacy-notice/
+  - type: VulnerabilityDisclosure
+    url: https://newscorp.com/vulnerability-disclosure-policy/
+  - type: Careers
+    url: https://careers.newscorp.com
   - type: GitHubOrganization
     url: https://github.com/newscorp-ghfb
   - type: LinkedIn
     url: https://www.linkedin.com/company/newscorp
-  - type: Website
-    url: https://www.news-corp.com
-description: >-
-  News Corp is a global, diversified media and information services company focused
-  on creating and distributing authoritative and engaging content across publishing,
-  news media, digital real estate services, and book publishing.
+
+apis: []
+
+x-coverage:
+  state: covered
+  reason: identity-verified
+  detail: >-
+    Website corrected from www.news-corp.com (no response; the apex news-corp.com redirects to the
+    domain marketplace domains.atom.com) to newscorp.com, whose page title is "News Corp" and which
+    the company's own LinkedIn page lists as its website (GitHub org newscorp-ghfb is titled "News Corp"). The homepage links no
+    developer, API or documentation page. investors.newscorp.com answered 403 to our crawler and was not added.
+  evidence:
+    - url: https://www.news-corp.com
+      status: 0
+    - url: https://news-corp.com
+      status: 403
+    - url: https://newscorp.com/
+      status: 200
+    - url: https://github.com/newscorp-ghfb
+      status: 200
+    - url: https://www.linkedin.com/company/newscorp
+      status: 200
+    - url: https://investors.newscorp.com/
+      status: 403
+x-enrichment:
+  date: '2026-10-20'
+  status: enriched
+  artifacts_added: 10
+  pass: modular-v1
+  engine: identity=anthropic,contract=anthropic,surfaces=anthropic,docs=anthropic,regulatory=anthropic

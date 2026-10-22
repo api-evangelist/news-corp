@@ -1,0 +1,87 @@
+generated: '2026-10-20'
+method: derived
+source: the pre-flight dossier, apis.yml pointers, spec servers, well-known, vendors -- nothing fetched here
+generator: derive-hosts.py
+summary:
+  hosts: 6
+  own: 4
+  other_domain: 0
+  platform: 2
+  roles:
+  - api
+  - marketing
+  - other
+  - source
+  - website
+hosts:
+- host: api.newscorp.com
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: newscorp.com
+  role: api
+  relation: own
+- host: careers.newscorp.com
+  found_by:
+  - pointer
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types:
+  - Careers
+  serves: []
+  registrable_domain: newscorp.com
+  role: marketing
+  relation: own
+- host: github.com
+  found_by:
+  - pointer
+  types:
+  - GitHubOrganization
+  serves: []
+  registrable_domain: github.com
+  role: source
+  relation: platform
+- host: investors.newscorp.com
+  found_by:
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: newscorp.com
+  role: other
+  relation: own
+- host: newscorp.com
+  found_by:
+  - pointer
+  - probed
+  - contract-discovery
+  - well-known
+  - vendor-detect
+  types:
+  - Website
+  - About
+  - Blog
+  - Support
+  - TermsOfService
+  - PrivacyPolicy
+  - VulnerabilityDisclosure
+  serves:
+  - cdn
+  vendor: fastly
+  registrable_domain: newscorp.com
+  role: website
+  relation: own
+- host: www.linkedin.com
+  found_by:
+  - pointer
+  types:
+  - LinkedIn
+  serves: []
+  registrable_domain: linkedin.com
+  role: other
+  relation: platform

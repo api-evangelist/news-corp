@@ -1,0 +1,12 @@
+name: News Corp packages
+generated: '2026-10-20'
+method: none
+source:
+- https://api.github.com/orgs/newscorp-ghfb/repos?per_page=100
+- https://registry.npmjs.org/newskit
+note: 'no first-party package: every candidate a model listed was unowned (harvest-packages.py --audit)'
+packages: []
+rejected:
+- name: newskit
+  registry: npm
+  reason: 'registry has no such package: official downgraded (harvest-packages.py --audit)'

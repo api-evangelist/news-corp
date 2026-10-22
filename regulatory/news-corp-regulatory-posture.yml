@@ -1,0 +1,90 @@
+generated: '2026-10-20'
+method: searched
+probe: true
+source: https://newscorp.com/news-corp-privacy-notice/
+scope: >-
+  Corporate site newscorp.com only. The privacy notice states it does not apply to services operated by
+  News Corp affiliates (Dow Jones, HarperCollins, News UK, etc.), which publish their own policies.
+signals:
+  data_subject_request:
+    url: https://newscorp.com/news-corp-privacy-notice/
+    section: Your Choices and Rights
+    channel: nc-privacypolicy@newscorp.com; 1-833-978-2096 (California); postal Privacy Office, 1211 Avenue of the Americas, New York, NY 10036
+    rights_named: [access, update/correction, deletion, data portability, UK/EU/EEA additional data subject rights, California consumer rights]
+    evidence:
+    - source: https://newscorp.com/privacy-notice/
+      http_status: 200
+      fetched: '2026-10-20'
+      quote: 'As described further in our Privacy Notice, you may have certain choices and rights related to the information we collect about you, including: The opportunity to access, update and correct, delete and/or port information that you choose to share with us, subject to applicable law.'
+    - source: https://newscorp.com/news-corp-privacy-notice/
+      http_status: 200
+      fetched: '2026-10-20'
+      quote: 'Under applicable laws, in addition to the general right of access described above, you have, subject to certain exceptions, the right to (i) receive a copy of your personal information in a structured, commonly used and machine-readable format, (ii) transmit the data to another busines'
+    - source: https://newscorp.com/california-privacy/
+      http_status: 200
+      fetched: '2026-10-20'
+      quote: 'California residents may exercise their California privacy rights by submitting your request here , by sending an email to nc-privacypolicy@newscorp.com , indicating “CA Privacy Rights” in the subject field of your email, or by contacting us at 1-833-978-2096.'
+    note: >-
+      Access, correction, deletion and portability are offered "subject to applicable law", with a
+      named email channel, a California web form/phone line, and a separate UK/EU/EEA rights page
+      (https://newscorp.com/eu-privacy/). No response-time SLA is stated on these pages.
+  data_retention:
+    url: https://newscorp.com/california-privacy/
+    section: Categories of Personal Information We Collect About You, Why and How
+    evidence:
+    - source: https://newscorp.com/california-privacy/
+      http_status: 200
+      fetched: '2026-10-20'
+      quote: 'Summarized in the table below are the categories of personal information we may collect about you over the past twelve (12) months, the purposes and sources of collection and retention period of each category of information.'
+    - source: https://newscorp.com/eu-privacy/
+      http_status: 200
+      fetched: '2026-10-20'
+      quote: 'We will keep your personal data for the periods noted in the Section and chart provided in the Categories of Personal Information We Collect About You, Why and How Section of the California Residents addendum .'
+    - source: https://newscorp.com/news-corp-privacy-notice/
+      http_status: 200
+      fetched: '2026-10-20'
+      quote: 'If the personal information is no longer needed for any purposes that justify its retention and we are not required by law to retain it, we will do what we can to delete, destroy or permanently de-identify it.'
+    note: >-
+      Retention periods are published per data category in a chart in the California addendum, and
+      the UK/EU page adopts that same chart. The main notice adds a delete/de-identify commitment once
+      data is no longer needed.
+  data_residency:
+    url: https://newscorp.com/news-corp-privacy-notice/
+    section: 7. Transfers of Information
+    evidence:
+    - source: https://newscorp.com/news-corp-privacy-notice/
+      http_status: 200
+      fetched: '2026-10-20'
+      quote: 'The Site is hosted in and managed from the United States, which may be outside the country in which you initially provided the information.'
+    - source: https://newscorp.com/eu-privacy/
+      http_status: 200
+      fetched: '2026-10-20'
+      quote: 'Personal data of our UK or EEA users may be transferred outside the UK or EEA to countries that may not have data protection rules that require the same level of protection, but we will make sure that there are appropriate mechanisms and controls in place to protect your data.'
+    note: >-
+      This is a statement of where data is processed (the US), not a data-residency option. Cross-border
+      transfers from the UK/EEA rely on transfer agreements and do not keep data in-region.
+  notice_and_action:
+    url: https://newscorp.com/terms-of-use/
+    section: Notice and Procedure for Making Claims of Copyright Infringement
+    channel: dmca-legal@newscorp.com; Copyright Agent, Legal Department, 1211 Ave of Americas, New York, NY 10036; fax 212-852-7217
+    evidence:
+    - source: https://newscorp.com/terms-of-use/
+      http_status: 200
+      fetched: '2026-10-20'
+      quote: 'If you are a copyright owner or an agent thereof and believe that any content on this website infringes upon your copyrights, you may submit a notification pursuant to the Digital Millennium Copyright Act by providing our Designated Agent (as set forth below) with the following information in writing (see 17 U.S.C. 512(c)(3) for further details):'
+    - source: https://newscorp.com/terms-of-use/
+      http_status: 200
+      fetched: '2026-10-20'
+      quote: 'News Corp has a policy of terminating repeat infringers’ access to its websites and services in appropriate circumstances.'
+    note: >-
+      A DMCA notice-and-takedown procedure with a named Designated Agent and a repeat-infringer policy.
+      It covers copyright only ("only notices of claims for alleged copyright infringement should be sent
+      to the Designated Agent"). It is not a general illegal-content notice mechanism of the DSA kind.
+not_found:
+  note: >-
+    The pages read (Terms of Use, Privacy Notice Highlights, full Privacy Notice, EU/UK and California
+    addenda, Vulnerability Disclosure Policy) do not address subprocessors lists, AI transparency,
+    incident/breach notification, Global Privacy Control, exit assistance, accessibility conformance,
+    support lifetime, SBOM, training data or transparency reports. The children's-data clause ("we do
+    not knowingly collect personal information from children under the age of 16") describes no age
+    assurance mechanism, so no age_assurance signal is recorded.

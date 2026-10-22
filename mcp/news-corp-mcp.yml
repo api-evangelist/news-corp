@@ -1,0 +1,34 @@
+generated: '2026-10-20'
+method: none
+status: none
+source:
+- https://newscorp.com/
+- https://investors.newscorp.com/mcp
+deployment:
+  mode: none
+  endpoint: null
+  install: null
+  package: null
+  auth: unknown
+  verified: searched
+search_result:
+  official_hosted_server: none
+  official_stdio_package: none
+  probes:
+  - url: https://investors.newscorp.com/mcp
+    method: GET (pre-flight contract discovery, 2026-10-20)
+    status: 403
+    control_status: 403
+    verdict: opaque
+    note: The edge (Akamai "Access Denied") returns 403 for every path including a control path, so this
+      proves nothing either way. The host does not document or advertise an MCP endpoint, so it was not
+      called beyond that GET.
+  - url: https://newscorp.com/llms.txt
+    method: GET
+    status: 404
+  web_search: Searched "News Corp" MCP server / Dow Jones / Factiva Model Context Protocol on 2026-10-20;
+    no first-party News Corp MCP server or package was found. Dow Jones, a News Corp subsidiary, publishes
+    its own developer platform and is profiled separately (dow-jones); it is not counted here.
+  finding: News Corp (the parent company) publishes no public API, OpenAPI contract, or MCP server. No
+    candidate tool list is derived because there is no OpenAPI in this repo to derive one from.
+tools: []
