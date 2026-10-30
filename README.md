@@ -1,4 +1,4 @@
-# News Corp. (news-corp)
+# News Corp
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,35 +64,85 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-News Corp. is a Fortune 500 company. This repository captures the APIs, developer tools, and machine-readable API artifacts for News Corp..
+News Corp (Nasdaq: NWS, NWSA) is a global, diversified media and information services company focused on creating and distributing authoritative and engaging content across publishing, news media, digital real estate services, and book publishing. Its businesses and brands include Dow Jones (The Wall Street Journal, Barron's, MarketWatch, Investor's Business Daily), the New York Post, News UK (The Times, The Sun), News Corp Australia, HarperCollins, Storyful, REA Group and Realtor.com. No public developer program or API documentation is published on newscorp.com.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/news-corp/refs/heads/main/apis.yml)
+**Areas:** Fortune 500 · Media · News · Publishing · Book Publishing · Digital Real Estate · Financial Information
 
-## Scope
+## News Corp on APIs.io
 
-- **Type:** Contract
-- **Position:** Consuming
-- **Access:** 3rd-Party
+Everything profiled for News Corp is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/news-corp/](https://apis.io/providers/news-corp/)** — or go straight to one of the APIs or properties below.
 
-## Tags:
+### Published properties
 
- - Fortune 500
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## Timestamps
+#### Security (2)
 
-- **Created:** 2026-03-21
-- **Modified:** 2026-04-28
+Authentication, trust centre, and vulnerability disclosure.
 
-## APIs
+- [News Corp Domain Security](https://apis.io/security/news-corp/news-corp-domain-security/)
+- [News Corp Vulnerability Disclosure](https://apis.io/security/news-corp/news-corp-vulnerability-disclosure/)
 
-No public APIs have been documented yet. Contributions welcome.
+## Where to find this API
 
-## Common Properties
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-- [Website](https://www.news-corp.com)
+- [Website](https://newscorp.com/)
+- [Support](https://newscorp.com/news-corp-contact/)
+- [Blog](https://newscorp.com/press-room/)
+- [Terms of service](https://newscorp.com/terms-of-use/)
+- [Privacy policy](https://newscorp.com/privacy-notice/)
+- [GitHub](https://github.com/newscorp-ghfb)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** API Evangelist
+**Kin Score 12.9** — emerging · rubric 0.24.0 · scored 2026-10-20
 
-**Email:** info@apievangelist.com
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 13.2 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 21.1 |
+
+**Agent readiness 3.1** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 19.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/news-corp/](https://apis.io/providers/news-corp/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for News Corp: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/news-corp/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
